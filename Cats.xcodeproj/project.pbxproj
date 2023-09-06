@@ -8,22 +8,68 @@
 
 /* Begin PBXBuildFile section */
 		0DA84BED2AA09A7A00F35646 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA84BEC2AA09A7A00F35646 /* AppDelegate.swift */; };
-		0DA84BEF2AA09A7A00F35646 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA84BEE2AA09A7A00F35646 /* SceneDelegate.swift */; };
-		0DA84BF12AA09A7A00F35646 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA84BF02AA09A7A00F35646 /* ViewController.swift */; };
 		0DA84BF42AA09A7A00F35646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA84BF22AA09A7A00F35646 /* Main.storyboard */; };
 		0DA84BF62AA09A7D00F35646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA84BF52AA09A7D00F35646 /* Assets.xcassets */; };
 		0DA84BF92AA09A7D00F35646 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA84BF72AA09A7D00F35646 /* LaunchScreen.storyboard */; };
+		0DA84C022AA09AC700F35646 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA84C012AA09AC700F35646 /* AppCoordinator.swift */; };
+		0DA84C072AA09B0900F35646 /* CatsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA84C062AA09B0900F35646 /* CatsVM.swift */; };
+		0DA84C0A2AA09B2100F35646 /* CatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA84C082AA09B2100F35646 /* CatsVC.swift */; };
+		0DA84C102AA09B4200F35646 /* CatsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA84C0F2AA09B4200F35646 /* CatsModel.swift */; };
+		0DA84C142AA09B8600F35646 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA84C132AA09B8600F35646 /* BaseVC.swift */; };
+		0DA84C182AA09BE500F35646 /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA84C172AA09BE500F35646 /* BaseAPI.swift */; };
+		0DA84C1A2AA8172B00F35646 /* CatsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA84C192AA8172B00F35646 /* CatsAPI.swift */; };
+		0DA84C1C2AA8178200F35646 /* BaseVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA84C1B2AA8178200F35646 /* BaseVM.swift */; };
+		0DA84C222AA81E8500F35646 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA84C212AA81E8500F35646 /* BaseModel.swift */; };
+		0DA84C242AA81F1E00F35646 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA84C232AA81F1E00F35646 /* Connection.swift */; };
+		0DA84C262AA821DD00F35646 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA84C252AA821DD00F35646 /* AlertManager.swift */; };
+		0DA84C282AA823C600F35646 /* CatsImageAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA84C272AA823C600F35646 /* CatsImageAPI.swift */; };
+		0DA84C2A2AA8279E00F35646 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA84C292AA8279E00F35646 /* BaseCoordinator.swift */; };
+		0DA84C2D2AA8281000F35646 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA84C2C2AA8281000F35646 /* Router.swift */; };
+		0DA84C2F2AA83DC200F35646 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA84C2E2AA83DC200F35646 /* UIButton.swift */; };
+		0DA84C322AA852C400F35646 /* DogsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA84C312AA852C400F35646 /* DogsAPI.swift */; };
+		0DA84C342AA852CE00F35646 /* DogsImageAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA84C332AA852CE00F35646 /* DogsImageAPI.swift */; };
+		0DA84C3A2AA8543300F35646 /* DogsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA84C392AA8543300F35646 /* DogsModel.swift */; };
+		0DA84C3C2AA8543B00F35646 /* DogsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA84C3B2AA8543B00F35646 /* DogsVM.swift */; };
+		0DA84C3E2AA8545400F35646 /* DogsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA84C3D2AA8545400F35646 /* DogsVC.swift */; };
+		0DA84C402AA85BA700F35646 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA84C3F2AA85BA700F35646 /* UIView.swift */; };
+		0DA84C432AA8651300F35646 /* TabC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA84C422AA8651300F35646 /* TabC.swift */; };
+		0DA84C452AA865B400F35646 /* MenubarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA84C442AA865B400F35646 /* MenubarCoordinator.swift */; };
+		0DA84C472AA87A7D00F35646 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA84C462AA87A7D00F35646 /* UIImageView.swift */; };
+		0DA84C492AA87B2400F35646 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA84C482AA87B2400F35646 /* UILabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0DA84BE92AA09A7A00F35646 /* Cats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DA84BEC2AA09A7A00F35646 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0DA84BEE2AA09A7A00F35646 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0DA84BF02AA09A7A00F35646 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0DA84BF32AA09A7A00F35646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0DA84BF52AA09A7D00F35646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DA84BF82AA09A7D00F35646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DA84BFA2AA09A7D00F35646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DA84C012AA09AC700F35646 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		0DA84C062AA09B0900F35646 /* CatsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsVM.swift; sourceTree = "<group>"; };
+		0DA84C082AA09B2100F35646 /* CatsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsVC.swift; sourceTree = "<group>"; };
+		0DA84C0F2AA09B4200F35646 /* CatsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsModel.swift; sourceTree = "<group>"; };
+		0DA84C132AA09B8600F35646 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		0DA84C172AA09BE500F35646 /* BaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
+		0DA84C192AA8172B00F35646 /* CatsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsAPI.swift; sourceTree = "<group>"; };
+		0DA84C1B2AA8178200F35646 /* BaseVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVM.swift; sourceTree = "<group>"; };
+		0DA84C212AA81E8500F35646 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		0DA84C232AA81F1E00F35646 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		0DA84C252AA821DD00F35646 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		0DA84C272AA823C600F35646 /* CatsImageAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsImageAPI.swift; sourceTree = "<group>"; };
+		0DA84C292AA8279E00F35646 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		0DA84C2C2AA8281000F35646 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		0DA84C2E2AA83DC200F35646 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		0DA84C312AA852C400F35646 /* DogsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsAPI.swift; sourceTree = "<group>"; };
+		0DA84C332AA852CE00F35646 /* DogsImageAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsImageAPI.swift; sourceTree = "<group>"; };
+		0DA84C392AA8543300F35646 /* DogsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsModel.swift; sourceTree = "<group>"; };
+		0DA84C3B2AA8543B00F35646 /* DogsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsVM.swift; sourceTree = "<group>"; };
+		0DA84C3D2AA8545400F35646 /* DogsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsVC.swift; sourceTree = "<group>"; };
+		0DA84C3F2AA85BA700F35646 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		0DA84C422AA8651300F35646 /* TabC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabC.swift; sourceTree = "<group>"; };
+		0DA84C442AA865B400F35646 /* MenubarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenubarCoordinator.swift; sourceTree = "<group>"; };
+		0DA84C462AA87A7D00F35646 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		0DA84C482AA87B2400F35646 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +102,182 @@
 		0DA84BEB2AA09A7A00F35646 /* Cats */ = {
 			isa = PBXGroup;
 			children = (
-				0DA84BEC2AA09A7A00F35646 /* AppDelegate.swift */,
-				0DA84BEE2AA09A7A00F35646 /* SceneDelegate.swift */,
-				0DA84BF02AA09A7A00F35646 /* ViewController.swift */,
-				0DA84BF22AA09A7A00F35646 /* Main.storyboard */,
-				0DA84BF52AA09A7D00F35646 /* Assets.xcassets */,
-				0DA84BF72AA09A7D00F35646 /* LaunchScreen.storyboard */,
 				0DA84BFA2AA09A7D00F35646 /* Info.plist */,
+				0DA84C042AA09AE100F35646 /* Assets */,
+				0DA84C002AA09AA400F35646 /* Coordinator */,
+				0DA84C032AA09ACB00F35646 /* Feature */,
+				0DA84C122AA09B6C00F35646 /* Helper */,
+				0DA84C112AA09B5E00F35646 /* Service */,
 			);
 			path = Cats;
+			sourceTree = "<group>";
+		};
+		0DA84C002AA09AA400F35646 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				0DA84BEC2AA09A7A00F35646 /* AppDelegate.swift */,
+				0DA84C012AA09AC700F35646 /* AppCoordinator.swift */,
+				0DA84C442AA865B400F35646 /* MenubarCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		0DA84C032AA09ACB00F35646 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				0DA84C412AA864FC00F35646 /* Tab */,
+				0DA84C352AA8541100F35646 /* Dogs */,
+				0DA84C052AA09AED00F35646 /* Cats */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		0DA84C042AA09AE100F35646 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0DA84BF52AA09A7D00F35646 /* Assets.xcassets */,
+				0DA84BF22AA09A7A00F35646 /* Main.storyboard */,
+				0DA84BF72AA09A7D00F35646 /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		0DA84C052AA09AED00F35646 /* Cats */ = {
+			isa = PBXGroup;
+			children = (
+				0DA84C0E2AA09B3900F35646 /* Model */,
+				0DA84C0D2AA09B2E00F35646 /* ViewModel */,
+				0DA84C0C2AA09B2500F35646 /* View */,
+			);
+			path = Cats;
+			sourceTree = "<group>";
+		};
+		0DA84C0C2AA09B2500F35646 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0DA84C082AA09B2100F35646 /* CatsVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0DA84C0D2AA09B2E00F35646 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0DA84C062AA09B0900F35646 /* CatsVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0DA84C0E2AA09B3900F35646 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0DA84C0F2AA09B4200F35646 /* CatsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0DA84C112AA09B5E00F35646 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0DA84C232AA81F1E00F35646 /* Connection.swift */,
+				0DA84C172AA09BE500F35646 /* BaseAPI.swift */,
+				0DA84C212AA81E8500F35646 /* BaseModel.swift */,
+				0DA84C252AA821DD00F35646 /* AlertManager.swift */,
+				0DA84C152AA09BCC00F35646 /* API */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0DA84C122AA09B6C00F35646 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0DA84C2B2AA8280800F35646 /* Router */,
+				0DA84C292AA8279E00F35646 /* BaseCoordinator.swift */,
+				0DA84C132AA09B8600F35646 /* BaseVC.swift */,
+				0DA84C1B2AA8178200F35646 /* BaseVM.swift */,
+				0DA84C2E2AA83DC200F35646 /* UIButton.swift */,
+				0DA84C3F2AA85BA700F35646 /* UIView.swift */,
+				0DA84C462AA87A7D00F35646 /* UIImageView.swift */,
+				0DA84C482AA87B2400F35646 /* UILabel.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		0DA84C152AA09BCC00F35646 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				0DA84C302AA852B900F35646 /* Dogs */,
+				0DA84C162AA09BD300F35646 /* Cats */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		0DA84C162AA09BD300F35646 /* Cats */ = {
+			isa = PBXGroup;
+			children = (
+				0DA84C192AA8172B00F35646 /* CatsAPI.swift */,
+				0DA84C272AA823C600F35646 /* CatsImageAPI.swift */,
+			);
+			path = Cats;
+			sourceTree = "<group>";
+		};
+		0DA84C2B2AA8280800F35646 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0DA84C2C2AA8281000F35646 /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0DA84C302AA852B900F35646 /* Dogs */ = {
+			isa = PBXGroup;
+			children = (
+				0DA84C312AA852C400F35646 /* DogsAPI.swift */,
+				0DA84C332AA852CE00F35646 /* DogsImageAPI.swift */,
+			);
+			path = Dogs;
+			sourceTree = "<group>";
+		};
+		0DA84C352AA8541100F35646 /* Dogs */ = {
+			isa = PBXGroup;
+			children = (
+				0DA84C382AA8542500F35646 /* View */,
+				0DA84C372AA8541E00F35646 /* ViewModel */,
+				0DA84C362AA8541800F35646 /* Model */,
+			);
+			path = Dogs;
+			sourceTree = "<group>";
+		};
+		0DA84C362AA8541800F35646 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0DA84C392AA8543300F35646 /* DogsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0DA84C372AA8541E00F35646 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0DA84C3B2AA8543B00F35646 /* DogsVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0DA84C382AA8542500F35646 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0DA84C3D2AA8545400F35646 /* DogsVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0DA84C412AA864FC00F35646 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				0DA84C422AA8651300F35646 /* TabC.swift */,
+			);
+			path = Tab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +351,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DA84BF12AA09A7A00F35646 /* ViewController.swift in Sources */,
+				0DA84C072AA09B0900F35646 /* CatsVM.swift in Sources */,
+				0DA84C452AA865B400F35646 /* MenubarCoordinator.swift in Sources */,
+				0DA84C242AA81F1E00F35646 /* Connection.swift in Sources */,
+				0DA84C402AA85BA700F35646 /* UIView.swift in Sources */,
+				0DA84C142AA09B8600F35646 /* BaseVC.swift in Sources */,
+				0DA84C3C2AA8543B00F35646 /* DogsVM.swift in Sources */,
+				0DA84C472AA87A7D00F35646 /* UIImageView.swift in Sources */,
+				0DA84C3E2AA8545400F35646 /* DogsVC.swift in Sources */,
+				0DA84C2F2AA83DC200F35646 /* UIButton.swift in Sources */,
+				0DA84C022AA09AC700F35646 /* AppCoordinator.swift in Sources */,
+				0DA84C322AA852C400F35646 /* DogsAPI.swift in Sources */,
+				0DA84C102AA09B4200F35646 /* CatsModel.swift in Sources */,
+				0DA84C282AA823C600F35646 /* CatsImageAPI.swift in Sources */,
+				0DA84C222AA81E8500F35646 /* BaseModel.swift in Sources */,
+				0DA84C492AA87B2400F35646 /* UILabel.swift in Sources */,
+				0DA84C2D2AA8281000F35646 /* Router.swift in Sources */,
+				0DA84C1C2AA8178200F35646 /* BaseVM.swift in Sources */,
+				0DA84C342AA852CE00F35646 /* DogsImageAPI.swift in Sources */,
 				0DA84BED2AA09A7A00F35646 /* AppDelegate.swift in Sources */,
-				0DA84BEF2AA09A7A00F35646 /* SceneDelegate.swift in Sources */,
+				0DA84C432AA8651300F35646 /* TabC.swift in Sources */,
+				0DA84C262AA821DD00F35646 /* AlertManager.swift in Sources */,
+				0DA84C3A2AA8543300F35646 /* DogsModel.swift in Sources */,
+				0DA84C1A2AA8172B00F35646 /* CatsAPI.swift in Sources */,
+				0DA84C2A2AA8279E00F35646 /* BaseCoordinator.swift in Sources */,
+				0DA84C0A2AA09B2100F35646 /* CatsVC.swift in Sources */,
+				0DA84C182AA09BE500F35646 /* BaseAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,16 +521,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W4RTD4XFZM;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cats/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +538,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lokerz.Cats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,16 +553,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W4RTD4XFZM;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cats/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +570,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lokerz.Cats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
